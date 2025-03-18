@@ -1,0 +1,21 @@
+.icon2 {
+    display: flex;
+    animation: scroll2 10s linear infinite;
+}
+
+.icon2 img {
+    width: 50px; /* Tamanho da imagem */
+    height: auto;
+    margin: 0 5px; /* Espaço entre as imagens */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(-100%); /* Início fora da tela à direita */
+    }
+    100% {
+        transform: translateX(100%); /* Fim fora da tela à esquerda */
+    }
+}

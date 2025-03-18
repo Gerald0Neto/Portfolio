@@ -1,0 +1,120 @@
+
+/* background-color: #f0f0f0; /* Cor de fundo */
+/* background-image: linear-gradient(#c0c0c0 1px, transparent 1px), 
+                    linear-gradient(90deg, #c0c0c0 1px, transparent 1px);
+background-size: 50px 50px; /* Tamanho dos quadrados */
+
+.standard{
+    color: white;
+    font-family: 'DynaPuff', cursive;
+}
+.space{
+    margin-top: 180px;
+    margin-bottom: 25px;
+}
+.borde {
+    padding: 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgb(157, 156, 156);
+    max-width: 100%; /* Para telas pequenas */
+    margin-left: 0; /* Centralizado por padrão */
+}
+/*RESPONSIVIDADE DA LETRA*/
+.font{
+    font-size: 50px;
+}
+.font-med{
+    font-size: 40px;
+    margin-left: 260px;
+}
+.font-p{
+    font-size: 25px;
+}
+@media (min-width: 350px) {
+    .font {
+        font-size: 25px; /* Telas pequenas */
+    }
+    .font-p{
+        font-size: 9px;
+    }
+    .font-med{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 650px) {
+    .font {
+        font-size: 39px; /* Telas médias */
+    }
+    .font-p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 824px) {
+    .font {
+        font-size: 50px; /* Telas grandes */
+    }
+    .font-p{
+        font-size: 15px;
+    }
+    .font-med{
+        font-size: 40px;
+        margin-left: 260px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .font {
+        font-size: 50px;/* Telas extra grandes */
+    }
+    .font-p{
+        font-size: 17px;
+    }
+    .font-med{
+        font-size: 40px;
+        margin-left: 260px;
+    }
+}
+/*FIM*/
+
+.font-size{
+    margin-top: 5%;
+    font-size: 29px;
+    color: white;
+    font-family: 'DynaPuff', cursive;
+}
+.background-gif{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #13051e;
+    background-size: cover; /* Cobre toda a tela */
+    background-position: center; /* Centraliza o GIF */
+    background-repeat: no-repeat; /* Não repete o GIF */
+    background-attachment: fixed; /* Fixa o GIF durante o scroll */
+}
+.center{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    margin-top: 20px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; 
+    color: rgb(84, 131, 233); 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    border-radius: 5px; 
+    font-family: 'DynaPuff', cursive;
+}
+.text-color{
+    font-weight: 400;
+    color: #999898;
+}

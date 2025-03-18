@@ -1,0 +1,21 @@
+.icon {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.icon img {
+    width: 50px; /* Tamanho da imagem */
+    height: auto;
+    margin: 0 5px; /* Espaço entre as imagens */
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%); /* Início fora da tela à direita */
+    }
+    100% {
+        transform: translateX(-100%); /* Fim fora da tela à esquerda */
+    }
+}
