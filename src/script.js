@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const repositories = document.querySelector('.content-container');
 
     function getApiGitHub() {
-        fetch('https://api.github.com/users/Teslaneto/repos')
+        fetch('https://api.github.com/users/Gerald0Neto/repos')
             .then(async res => {
                 if (!res.ok) {
                     throw new Error(res.status);
