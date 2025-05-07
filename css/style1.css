@@ -118,3 +118,10 @@ background-size: 50px 50px; /* Tamanho dos quadrados */
     font-weight: 400;
     color: #999898;
 }
+
+.margin{
+    margin-left: 20px;
+}
+.top{
+    height: 100px;
+}
