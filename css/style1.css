@@ -120,10 +120,12 @@ background-size: 50px 50px; /* Tamanho dos quadrados */
 }
 
 .margin{
-    margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
 }
 .top{
     height: 100px;
+}
+.baixo{
+    margin-bottom: 30px;
 }
