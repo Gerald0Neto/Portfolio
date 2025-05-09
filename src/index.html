@@ -62,9 +62,15 @@
         </p>
     </div>
     <div class="center content">
-        <a id="download-button" href="#" class="btn btn-center">Baixar Currículo</a>
+        <a id="download-button" href="#" class="btn btn-center" onclick="baixarCurriculo()">Baixar Currículo</a>
     </div>
 
+    <script>
+    function baixarCurriculo() {
+        // Redireciona para o arquivo PHP que força o download
+        window.location.href = 'baixar.php';
+    }
+    </script>
 
     <div class="overflow-hidden w-full content">
         <div class="icon">
